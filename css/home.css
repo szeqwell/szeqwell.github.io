@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.contact{
+    border-width: 10px;
+    background-color: #0800A7;
+    
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+    color: #FFAC00;
+    margin: 2px;
+    border-radius: 10px;
+    
+   
+}
+
+
+.home{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    
+    
+}
+.restaurants{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    font-size: 40px;
+    align-items: center;
+    
+}
+.government{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+.shopping{
+    width: 250px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education{
+    width: 250px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* i apologize but i had to leave two images in this foulder because it doesn't work if i put it in the foulder "img" */
+body{
+    background-image: url(651b92db-efab-4293-9902-e8a211fcc457.jpg) ;
+     background-size: 100%;
+     display: flex;
+     flex-direction: column;
+}
+.logo{
+  width: 50px;
+}
+.home{
+    font-family:'Dancing script', sans-serif;
+    
+}
+
+.main{
+    display: flex;
+  background-color: #FFAC00;
+    background-color: rgba(255, 172, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 250px;
+    font-family:  'Dancing script';
+    font-size: 50px;
+    border-radius: 10px;
+   
+    
+}
+.p{
+  position: absolute;
+    margin-top: 10px;
+  
+}
+.general{
+   
+    background-color: #FFAC00;
+    background-color: rgba(255, 172, 0, 0.8);
+    justify-content: center;
+    font-size: 140%;
+    align-items:center;
+    text-align:center;
+    margin: 100px auto;
+    width: 670px;
+    height: 280spx;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+    
+}
+
+
+
+.topnav {
+    background-color: #FFAC00;
+    display: flex;
+    overflow: hidden;
+    float: center;
+    justify-content: center;
+    border: 1px black solid;
+    width: 100%;
+   
+  }
+  
+  
+  .topnav a {
+    float: center;
+    margin: 0 10px;
+    
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #0800A7;
+    color: black;
+  }
+
+  footer{
+    background-color: #FFAC00;
+    width: 100%;
+    border: 1px black solid;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 0;
+    
+  }
+  .headphones{
+    width: 40px;
+    height: 40px;
+  }
+
+  
+  .img-container{
+    display: flex;
+    justify-content: left;
+    margin: 80px;
+    margin-top: 60px;
+    flex-direction: row;
+    
+  }
+  .copyright{
+    
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+  }
+
+  
+   
+  
+ .footernav{
+    display: column;
+    
+    border-left: solid #0800A7;
+    color: black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 190px;
+    list-style-type: none;
+
+    
+ }
+ .nav a {
+    color:black;
+ }
+ .nav li{
+  text-decoration: none;
+ }
+ .icons{
+  border-left: solid #0800A7 ;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  
+  
+
+  
+ }
+
+ /* hello */ /* 375x667 96% */
+ @media screen  and (max-width:768px) {
+  .img-container{
+    margin-left: 6px;
+  }
+  .footernav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+  }
+  .topnav{
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+ 
+   .general{width: 100%;
+        flex-basis: calc(100% - 50px);
+      }
+  body{
+    background-image: url(photo_5201794862993757287_y.jpg);
+    background-size: cover;
+   
+  }    
+  /* 930x668 96% */
+ }
+ @media screen and (max-width: 1000px){
+  .home{
+    
+    font-size: 20px;
+    
+    
+}
+.restaurants{
+    
+    font-size: 20px;
+    
+    
+}
+.government{
+  font-size: 20px;
+    
+}
+.shopping{
+  font-size: 20px;
+    
+}
+.education{
+  font-size: 20px;
+    
+}
+
+
+ }
+  

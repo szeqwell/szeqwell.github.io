@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.contact{
+    border-width: 10px;
+    background-color: #0800A7;
+    border: solid #0800A7;
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+    color: #FFAC00;
+    margin: 2px;
+    border-radius: 10px;
+}
+.home{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family:'Dancing script', sans-serif;
+    
+    
+}
+.restaurants{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    font-size: 40px;
+    align-items: center;
+    
+}
+.government{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+.shopping{
+    width: 250px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education{
+    width: 250px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+  }
+  
+.topnav {
+    background-color: #FFAC00;
+    display: flex;
+    overflow: hidden;
+    float: center;
+    justify-content: center;
+    border: 1px black solid;
+    width: 100%;
+  }
+  .topnav a {
+    float: center;
+    margin: 0 10px;
+    
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: #0800A7;
+    color: black;
+  }
+  footer{
+    background-color: #FFAC00;
+    width: 100%;
+    border: 1px black solid;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 0;
+    
+  }
+  .headphones{
+    width: 40px;
+    height: 40px;
+  }
+
+  
+  .img-container{
+    display: flex;
+    justify-content: left;
+    margin: 80px;
+    margin-top: 60px;
+    flex-direction: row;
+    
+  }
+  .copyright{
+    
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+  }
+
+  
+   
+  
+ .footernav{
+    display: column;
+    
+    border-left: solid #0800A7;
+    color:black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 190px;
+    list-style-type: none;
+
+    
+ }
+ .nav a {
+    color:black;
+ }
+ .nav li{
+  text-decoration: none;
+ }
+ .icons{
+  border-left: solid #0800A7 ;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  
+
+  
+ }
+
+body{
+    background-color:  hsl(240, 100%, 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.info{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.main{
+    width: 476px;
+height: 449px;
+flex-shrink: 0;
+color: #FFAC00;
+
+font-family: 'Istok Web';
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 40px;
+}
+.building{
+    width: 507px;
+height: 529px;
+border-radius: 20px;
+margin-right: 40px;
+}
+.image{
+  display: flex;
+  flex-direction: column;
+}
+figcaption{
+  font-family: 'Istok Web';
+  color: #FFAC00;
+  font-weight: 700;
+}
+/* 930x668 96% */
+@media screen and (max-width: 1000px){
+  .building{
+    width: 380px;
+    margin-right: 0;
+  }
+  .home{
+    
+    font-size: 20px;
+    
+    
+}
+.restaurants{
+    
+    font-size: 20px;
+    
+    
+}
+.government{
+  font-size: 20px;
+    
+}
+.shopping{
+  font-size: 20px;
+    
+}
+.education{
+  font-size: 20px;
+    
+}
+}
+
+/* hello */ /* 375x667 96% */
+@media screen  and (max-width:768px) {
+  .img-container{
+    margin-left: 6px;
+  }
+  .footernav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+  }
+  .topnav{
+    align-items: center;
+    flex-direction: column;
+  }
+  .info{
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .main{
+    width: 300px;
+    height: 800px
+  }
+  .building{
+    width: 300px;
+    margin-right: 0;
+    margin-left: 40px;
+  }
+  
+  
+    
+   }
