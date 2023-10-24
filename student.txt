@@ -1,0 +1,5 @@
+Tetianin Danylo
+717482
+IT1F
+https://github.com/szeqwell/website.git
+https://github.com/szeqwell/web-markup.git
