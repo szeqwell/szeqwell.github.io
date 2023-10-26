@@ -81,6 +81,9 @@
     background-color: #0800A7;
     color: black;
   }
+  .topnav a:active{
+    color:#FFAC00;
+  }
   footer{
     background-color: #FFAC00;
     width: 100%;

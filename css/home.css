@@ -15,9 +15,8 @@
     color: #FFAC00;
     margin: 2px;
     border-radius: 10px;
-    
-   
 }
+
 
 
 .home{
@@ -139,6 +138,9 @@ body{
   .topnav a:hover {
     background-color: #0800A7;
     color: black;
+  }
+  .topnav a:active{
+    color:#FFAC00;
   }
 
   footer{

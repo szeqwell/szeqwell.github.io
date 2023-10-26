@@ -81,6 +81,10 @@
     background-color: #0800A7;
     color: black;
   }
+  .topnav a:active{
+    color:#FFAC00;
+  }
+  
   footer{
     background-color: #FFAC00;
     width: 100%;
@@ -120,7 +124,7 @@
   
  .footernav{
     display: column;
-    
+    z-index: 9999;
     border-left: solid #0800A7;
     color: black;
     font-size: 20px;

@@ -2,6 +2,13 @@
     padding: 0;
     margin: 0;
 }
+h1::first-letter{
+    font-size: 150%;
+    
+}
+a>aside{
+    color: black;
+}
 .home{
     width: 250px;
     display: flex;
@@ -12,6 +19,9 @@
     
     
 }
+.topnav a:active{
+    color:#FFAC00;
+  }
 .restaurants{
     display: flex;
     justify-content: center;
@@ -95,7 +105,6 @@ text-align: center;
     background: #FFAC00;
     margin: 0 auto;
 }
-
 .contact{
     
     flex-direction: column;
@@ -157,16 +166,22 @@ margin: 20px;
 }
 input[type="text/css"] {
     border-radius: 10px; 
-    border: 2px solid black;
+    border-width: 2px;
+    border: solid;
     height: 20px;
     font-family: 'Marcellus';
+    border-color: black;
 }
 
-
+.name{
+    margin-bottom: 15px;
+}
 textarea {
     border-radius: 10px; 
     font-family: 'Marcellus';
-    border: 2px solid black;
+    border-color: black;
+    border-style: dotted;
+    border-width: 2px;
 }
 
 .submit{
@@ -181,6 +196,7 @@ font-size: 30px;
 font-family: 'Marcellus';
 background-color: #0800A7;
 color: #FFAC00;
+position: absolute;
 }
 .user{
     width: 20px;
@@ -284,6 +300,6 @@ color: #FFAC00;
         border-radius: 0px;
         margin-bottom: 20px;
       }
-       
+      
     
    }
