@@ -63,13 +63,13 @@
     background-color: #FFAC00;
     display: flex;
     overflow: hidden;
-    float: center;
+    
     justify-content: center;
     border: 1px black solid;
     width: 100%;
   }
   .topnav a {
-    float: center;
+   
     margin: 0 10px;
     
     color: black;
@@ -99,6 +99,7 @@
   .headphones{
     width: 40px;
     height: 40px;
+    float: left;
   }
 
   

@@ -31,6 +31,7 @@ a>aside{
     align-items: center;
     
 }
+
 .government{
     display: flex;
     font-size: 40px;
@@ -60,13 +61,13 @@ a>aside{
     background-color: #FFAC00;
     display: flex;
     overflow: hidden;
-    float: center;
+    
     justify-content: center;
     border: 1px black solid;
     width: 100%;
   }
   .topnav a {
-    float: center;
+    
     margin: 0 10px;
     
     color: black;
