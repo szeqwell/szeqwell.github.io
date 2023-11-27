@@ -1,1 +1,5 @@
-Name: Danylo Tetianin
+Student name: Danylo Tetianin
+Student number: 717482
+Student class: IT1F
+GitHub Repository: https://github.com/szeqwell/szeqwell.github.io.git
+GitHub Pages URL: https://szeqwell.github.io/
